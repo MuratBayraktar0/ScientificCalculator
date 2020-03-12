@@ -1,0 +1,12 @@
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\bin\Debug\netstandard2.0\CalculatorApp.deps.json
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\bin\Debug\netstandard2.0\CalculatorApp.dll
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\bin\Debug\netstandard2.0\CalculatorApp.pdb
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\CalculatorApp.AssemblyInfoInputs.cache
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\CalculatorApp.AssemblyInfo.cs
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\CalculatorApp.dll
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\CalculatorApp.pdb
+C:\Users\Murat\source\repos\CalculatorApp\CalculatorApp\CalculatorApp\obj\Debug\netstandard2.0\CalculatorApp.csprojAssemblyReference.cache

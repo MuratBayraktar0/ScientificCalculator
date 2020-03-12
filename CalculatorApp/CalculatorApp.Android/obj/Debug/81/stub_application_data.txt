@@ -1,0 +1,2 @@
+android.app.Application
+com.HesapMakina_App

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CalculatorApp"
+             x:Class="CalculatorApp.MainPage">
+
+    <Grid Padding="2" RowSpacing="0" ColumnSpacing="0" BackgroundColor="Gray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="1.2*" />
+        </Grid.RowDefinitions>
+
+        <Label x:Name="ekran" Text="" 
+                   Grid.ColumnSpan="4"
+                   FontSize="28"
+                   TextColor="White"
+                   BackgroundColor="Black"
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center"
+                   LineBreakMode="NoWrap"
+                   FontAttributes="Bold"/>
+
+        <Label x:Name="ekran2" Text="" 
+                   Grid.ColumnSpan="4"
+                   FontSize="50"   
+                   Grid.Row="1" 
+                   TextColor="White"
+                   BackgroundColor="Black"
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center"
+                   LineBreakMode="NoWrap"
+                   FontAttributes="Bold"/>
+
+        <Button x:Name="ac" Text="AC" Grid.Row="2" 
+                Grid.Column="0" FontSize="20" Margin="2"
+                TextColor="White"  Clicked="temizle"           
+                BorderRadius="20" BackgroundColor="DarkGray"
+                />
+        <Button x:Name="parantezAc" Text="(" Grid.Row="2" 
+                TextColor="White" Clicked="tikla"
+                Grid.Column="1" FontSize="20" Margin="2"
+                BorderRadius="20" BackgroundColor="DarkGray" 
+                />
+        <Button x:Name="parantezKapa" Text=")" Grid.Row="2" 
+                TextColor="White" Clicked="tikla"
+                Grid.Column="2" FontSize="20" Margin="2"
+                BorderRadius="20" BackgroundColor="DarkGray" 
+                />
+        <Button x:Name="bolbtn" Text="÷" Grid.Row="2" 
+                TextColor="White" Clicked="tikla"
+                Grid.Column="3" FontSize="28" Margin="2"
+                BorderRadius="20" BackgroundColor="Orange" 
+                />
+
+        <Button x:Name="yedi" Text="7" Grid.Row="3" 
+                TextColor="White" Clicked="tikla"
+                Grid.Column="0" FontSize="28" Margin="2"
+                BorderRadius="20" BackgroundColor="Black" 
+                />
+
+        <Button x:Name="sekiz" Text="8" Grid.Row="3" 
+                TextColor="White" Clicked="tikla"
+                Grid.Column="1" FontSize="28" Margin="2"
+                BorderRadius="20" BackgroundColor="Black" 
+                />
+        <Button x:Name="dokuz" Text="9" Grid.Row="3" Clicked="tikla"
+                Grid.Column="2" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Margin="2"
+                />
+        <Button x:Name="carpbtn" Text="*" Grid.Row="3" Clicked="tikla"
+                Grid.Column="3" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Orange" Margin="2"
+                />
+        <Button x:Name="dort" Text="4" Grid.Row="4" Clicked="tikla"
+                Grid.Column="0" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Margin="2"
+                />
+
+        <Button x:Name="bes" Text="5" Grid.Row="4" Clicked="tikla"
+                Grid.Column="1" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Margin="2"
+                />
+        <Button x:Name="alti" Text="6" Grid.Row="4" Clicked="tikla"
+                Grid.Column="2" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Margin="2"
+                />
+        <Button x:Name="cikarbtn" Text="-" Grid.Row="4" Clicked="tikla"
+                Grid.Column="3" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Orange" Margin="2"
+                />
+        <Button x:Name="bir" Text="1" Grid.Row="5" Clicked="tikla"
+                Grid.Column="0" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Margin="2"
+                />
+
+        <Button x:Name="iki" Text="2" Grid.Row="5" Clicked="tikla"
+                Grid.Column="1" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Margin="2"
+                />
+        <Button x:Name="uc" Text="3" Grid.Row="5" Clicked="tikla"
+                Grid.Column="2" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Margin="2"
+                />
+        <Button x:Name="toplabtn" Text="+" Grid.Row="5" Clicked="tikla"
+                Grid.Column="3" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Orange" Margin="2"
+                />
+
+        <Grid Padding="2" RowSpacing="0" ColumnSpacing="0" BackgroundColor="Gray" Grid.Row="6"  Grid.ColumnSpan="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <Button x:Name="kare" Text="x²" Grid.Row="0" Margin="2"
+                Grid.Column="2" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Clicked="tikla"/>
+
+            <Button x:Name="kok" Text="√" Grid.Row="1" Margin="2"
+                Grid.Column="2" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Black" Clicked="tikla"/>
+
+            <Button x:Name="nokta" Text="," Grid.Row="0"
+                TextColor="White" Margin="2"
+                Grid.Column="0" FontSize="28" Clicked="tikla"
+                BorderRadius="20" BackgroundColor="Black" 
+                />
+
+            <Button x:Name="clear" Text="C" Grid.Row="1" Margin="2"
+                Grid.Column="0" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="DarkGray" Clicked="temizle"/>
+            
+            <Button x:Name="sonucbtn" Text="=" Grid.RowSpan="2" Clicked="sonuc"
+                Grid.Column="3" FontSize="28" TextColor="White"
+                BorderRadius="20" BackgroundColor="Orange" Margin="2"/>
+
+            <Button x:Name="sifir" Text="0" Grid.RowSpan="2"
+                TextColor="White" Margin="2"
+                Grid.Column="1" FontSize="28" Clicked="tikla"
+                BorderRadius="20" BackgroundColor="Black" 
+                />
+
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.HesapMakina_App" android:installLocation="auto" android:versionName="2.0" android:versionCode="1">
+	<uses-sdk android:minSdkVersion="25" android:targetSdkVersion="27" />
+	<application android:label="CalculatorApp.AndroidV3" android:icon="@mipmap/icon"></application>
+</manifest>
